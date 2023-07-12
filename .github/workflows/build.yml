@@ -27,7 +27,7 @@ jobs:
       - name: Check
         run: npm run check
       - name: Build website
-        run: npm run build
+        run: npm run dev
       - name: Artifacts
         uses: actions/upload-pages-artifact@v1
         with:
